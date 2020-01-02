@@ -195,3 +195,21 @@
 
 
 }());
+
+const links = document.querySelectorAll('.side-nav');
+
+for(let i = 0; i < links.length; i++){
+
+    links[i].addEventListener('click', e => {
+        for(let j = 0; j < links.length; j++){
+            links[j].setAttribute('class', 'side-nav');
+        };
+
+        let selectedAnchor = event.target;
+        let selectedLi = selectedAnchor.parentElement;
+
+        if (selectedLi.className !== 'colorlib-active'){
+          selectedLi.setAttribute('class', 'colorlib-active');
+        }
+    })
+};

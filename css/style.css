@@ -563,11 +563,12 @@ body.offcanvas {
 
 .project {
   background-size: cover;
-  background-position: center center;
+  /*background-position: center center;*/
   background-repeat: no-repeat;
   position: relative;
   height: 450px;
   width: 100%;
+  /*border: 5px solid #9A9491;*/
   display: block;
   margin-bottom: 30px; }
   .project .desc {
@@ -779,7 +780,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
       padding: 0; }
-    .colorlib-feature .colorlib-text h3 {
+    .colorlib-feature .colorlib-text h3, .proj-title {
       font-weight: 800;
       margin-bottom: 20px;
       color: #CCBFAB;
@@ -872,13 +873,12 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  /*background: #F75940;*/
-  background: #B89F5F;
+  background: #CCBFAB;
   color: #fff;
-  border: 2px solid #B89F5F; }
+  border: 2px solid #CCBFAB; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #F4D58D !important;
-    border-color: #F4D58D !important; }
+    background: #B89F5F !important;
+    border-color: #B89F5F !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #F75940;

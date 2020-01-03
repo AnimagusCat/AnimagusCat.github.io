@@ -46,6 +46,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 30px 0; }
 
+  #first-name {
+  	color: #fff;
+  }
+
+  #last-name {
+  	color: #9A9491;
+  }
+
+  .side-name {
+  	text-align: right;
+  }
+
 figure {
   margin-bottom: 2.5em;
   float: left;
@@ -204,6 +216,9 @@ figure {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
     padding: 0 20px; }
+    .colorlib-footer p {
+    	font-size: 0.8em;
+    }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
@@ -224,7 +239,7 @@ figure {
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #F75940; }
+            color: #fff; }
 
 #colorlib-main {
   width: 82%;
@@ -366,7 +381,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 270px;
-    background: #fff;
+    background: #CCBFAB;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -394,8 +409,7 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+    	padding: 5em 1em 8em 1em; } }
 
 .about-img,
 .about-img-2 {
